@@ -8,12 +8,26 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      backgroundColor: {
+        'background': 'var(--background-color)',
+        'header': 'var(--header-color)',
+        'primary': 'var(--primary-color)',
+        'secondary': 'var(--secondary-color)',
+      },
+      textColor: {
+        'primary': 'var(--body-text-color)'
+      },
+      borderColor: {
+        'primary': 'var(--primary-color)',
+        'secondary': 'var(--secondary-color)',
+      },
+      boxShadow: {
+        primary: 'var(--shadow-primary)', 
+        secondary: 'var(--shadow-secondary)', 
       },
     },
   },
   plugins: [],
 };
+
 export default config;
