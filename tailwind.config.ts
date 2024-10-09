@@ -8,6 +8,16 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens: {
+        xxs: '350px',
+        xs: '400px',
+        sm: '480px',
+        md: '768px',
+        lg: '1024px',
+        xl: '1240px',
+        xxl: '1340px',
+        xlg: '1800px',
+      },
       backgroundColor: {
         'background': 'var(--background-color)',
         'header': 'var(--header-color)',

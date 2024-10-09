@@ -34,7 +34,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-background`}
       >
         <Header />
-        <div className='min-h-screen mt-20'>{children}</div>
+        <div className='min-h-screen overflow-hidden'>{children}</div>
         <Footer />
       </body>
     </html>

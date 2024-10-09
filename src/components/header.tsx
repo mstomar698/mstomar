@@ -61,7 +61,7 @@ function Header() {
           />
           <p className="text-[18px] font-bold cursor-pointer flex ">Mayank</p>
         </Link>
-        <span className="flex flex-row justify-between gap-10 max-md:gap-6 items-center">
+        <span className="flex flex-row justify-between gap-10  max-lg:gap-0 max-md:gap-6 items-center">
           <ul className="list-none hidden sm:flex flex-row gap-10 max-md:gap-6">
             {navLinks.map((nav) => (
               <li
@@ -78,7 +78,7 @@ function Header() {
           <button
             type="submit"
             title="toggler"
-            className="text-inherit px-16 text-[16px] font-extrabold flex flex-row max-sm:hidden"
+            className="text-inherit xl:px-16 max-xl:px-4 text-[16px] font-extrabold flex flex-row max-sm:hidden"
             onClick={toggleMode}
           >
             <CiSun />
